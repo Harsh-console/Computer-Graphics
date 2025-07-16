@@ -33,9 +33,9 @@ lineList = []
 mountainLineList = []
 BLACK = (0, 0, 0)
 GREEN = (0, 255, 0)
-BROWN = (139, 69, 19)              # Realistic soil brown
-mountainColor = (120, 120, 120)   # Dark stone grey
-snow_cap_color = (245, 245, 245)  # Off-white snow
+BROWN = (139, 69, 19)              
+mountainColor = (120, 120, 120)   
+snow_cap_color = (245, 245, 245)  
 
 sky_image = pg.image.load(r'C:\Users\USER\projects\Ray_Tracing\cloud.jpeg')
 sky_image = pg.transform.scale(sky_image, (WIDTH, HEIGHT)).convert()
